@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "StringLiteralizer": {
+      "commandName": "Project",
+      "commandLineArgs": "Modules\\HypnokinkModule\\StandIns",
+      "workingDirectory": "C:\\Users\\PeteTimesSix\\AppData\\Roaming\\Godot\\app_userdata\\BDCC\\mods"
+    }
+  }
+}
