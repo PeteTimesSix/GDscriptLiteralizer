@@ -11,13 +11,6 @@ namespace StringLiteralizer
 
         static void Main(string[] args)
         {
-
-            if (args.Length == 0)
-            {
-                Console.WriteLine("Need folder to pull from as first param");
-                return;
-            }
-
             var fileDataDict = ParseGDscript();
             InsertLocalStaticFuncsRecursive(fileDataDict);
             ReplaceConstantsWithStringLiterals(fileDataDict);
